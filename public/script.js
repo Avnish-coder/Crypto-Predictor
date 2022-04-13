@@ -1,6 +1,6 @@
 let btn = document.querySelector(".btn");
 let input = document.querySelector("input");
-let allData = document.querySelector(".output")
+let allData = document.querySelector(".output1")
 let futureCrypt = document.querySelector("#future");
 let loader = document.querySelector(".loading");
 
@@ -21,6 +21,7 @@ btn.addEventListener("click", async () => {
   console.log(res.data.result);
 
   for(let i of res.data.result){
+
     allData.innerHTML +="<br>" +  JSON.stringify(i,undefined,2)
   }
   futureCrypt.innerHTML = JSON.stringify(res.data.future[0],undefined,2)
