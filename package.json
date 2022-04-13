@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security",
+    "helmet": "^5.0.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "sql-to-json": "^1.5.0"
+  },
+  "name": "cryptocurrency",
+  "version": "1.0.0",
+  "main": "crypto.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

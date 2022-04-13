@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crypto predictor</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="crypto1.png" type="image/x-icon" />
+
+</head>
+
+<body>
+  <div class="loading">
+    <div class="loader">Loading...</div>
+  </div>
+  
+  <div class="body">
+    <div class="ScrappedData center">
+      <pre class="output"></pre>
+    </div>
+    <div class="searchSection center">
+      <div class="searchBtn">
+        <div class="icon center">
+          <img src="crypto.png" alt="" width="200" />
+        </div>
+        <div class="linkAndBtn">
+          <div class="twolinks center">
+            <div class="link center">
+              Link 1 : https://coinranking.com
+              <br />
+              Link 2 : https://www.livecoinwatch.com
+            </div>
+          </div>
+          <div class="input">
+            <div class="input center">
+              <input type="text" name="" id=""
+                placeholder="Please paste the above links and add space between both links" />
+            </div>
+            <div class="btn">
+              <button>Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="futureCrypto center">
+      <pre  id="future" class="searchBtn"></pre>
+      
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js"></script>
+  <script defer src="script.js"></script>
+</body>
+
+</html>
