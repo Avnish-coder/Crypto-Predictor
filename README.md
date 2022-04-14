@@ -10,4 +10,5 @@ open google chrome type "localhost:8080"
 for scrap the data paste the above links  into the input section and click on submit and wait for few mins data will display on screen
 
 for more information please check below link:
+
 Video Link : https://drive.google.com/file/d/1OetMWvFdABBy5MO9ysy_dhHnqQELl6N2/view?usp=sharing
