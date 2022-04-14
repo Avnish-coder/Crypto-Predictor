@@ -1,6 +1,6 @@
 const { requestUrls } = require("./crypto");
 const fs = require("fs");
-const { db } = require("./src/controller/connect.js");
+const { db } = require("../model/connect.js");
 const mysql = require("mysql");
 let future = {};
 function getHome(req, res) {
